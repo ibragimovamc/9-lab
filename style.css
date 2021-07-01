@@ -1,0 +1,253 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    padding: 1% 2% 0 2%;
+}
+
+.header img{
+    margin-left: 3%;
+}
+
+.header_menu{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 5%;
+    flex-grow: 1;
+}
+
+.login_button{
+    display: inline;
+    width: 70px;
+    height: 34px;
+    line-height: 2.5vw;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+.header_menu span{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.take_your_merch{
+    display: flex;
+    flex-direction: column;
+    padding: 1px 3% 3% 3%;
+    background-color: #111111;
+}
+
+.take_your_cards{
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.photo_card img{
+    border-radius: 30px;
+}
+
+.gradient_text{
+    background: radial-gradient(circle farthest-side at 30px 20px,rgba(235, 144, 56, 1),
+    rgba(243, 192, 198, 1),
+    rgba(243, 195, 207, 1),
+    rgba(141, 196, 243, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: inherit;
+}
+
+.trusted_by{
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom_revenue{
+    padding: 10%;
+    background: radial-gradient(circle farthest-side at 0 0, rgba(141, 196, 243, 0.62),
+    rgba(234, 151, 78, 0.65),
+    rgba(228, 195, 212, 1));
+    display: flex;
+    flex-direction: row;
+}
+
+.custom_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    margin-left: -10%;
+}
+
+.unlock_exclusive{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 3% 10% 3%;
+}
+
+.unlock_block{
+    text-align: center;
+    color: white;
+}
+
+.customized_selling{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 3% 5% 3%;
+}
+
+.selling_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8%;
+}
+
+.selling_photos{
+    display: flex;
+}
+
+.selling_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom_block{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2% 0 2%;
+    margin-bottom: 3%;
+}
+
+.bottom_block img{
+    width: 31px;
+    height: 31px;
+    margin-bottom: 1.2%;
+}
+
+.bottom_block span{
+    font-size: 36px;
+    margin-bottom: 1%;
+}
+
+.bottom_block .span_bottom{
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.text_and_photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_and_photo span{
+    width: 493px;
+    font-size: 24px;
+    margin: 10% -2% 15% 4%;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.footer_top{
+    background-color: #3D4853;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 7% 3% 3% 3%;
+}
+
+.footer_text_and_logo{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transform: translateY(40px);
+}
+
+.footer_top img{
+    transform: translateX(-90px);
+    z-index: 0;
+}
+
+.footer_bottom{
+    /*margin-top: 5%;*/
+    display: flex;
+    background-color: #3D4853;
+    color: white;
+    justify-content: space-between;
+}
+
+.unlock_button{
+    display: inline;
+    width: 182px;
+    height: 48px;
+    line-height: 3vw;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    /*margin-bottom: 5%;*/
+    text-decoration: none;
+}
+
+.footer_block{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.footer_logo{
+    width: 23px;
+    height: 33px;
+}
+
+.footer_block h2{
+    font-size: 14px;
+    color: #BDCAD8;
+}
+
+.footer_block span{
+    line-height: 3vw;
+    font-size: 14px;
+}
+
+.bonfire_new{
+    display: flex;
+    margin-top: 7%;
+    background-color: #445260;
+    width: 223px;
+    height: 22px;
+    border-radius: 8px;
+}
+
+.bonfire_new img{
+    margin-left: 7%;
+}
+
+.bonfire_new span{
+    line-height: 130%;
+    margin: 0 0 2% 4%;
+}
+
+.social_logos{
+    width: 256px;
+}
